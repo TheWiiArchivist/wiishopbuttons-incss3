@@ -1,0 +1,89 @@
+/* wii shop type button made by ChrisplayzYT/BLOX.
+
+smalltext,mediumtext,largetext, were made by me peeking at the wii shop css,
+
+ its just font sizes!1!1 i didnt steal!!!
+
+*/
+
+button {
+
+   /* change to your own cursor, or just remove :) */
+
+   cursor: url("wiicursor.png"), default;
+
+   text-align: center;
+
+   padding: 3px 5px;
+
+
+/* don te edit cuz this make the buttons w i i s h o p p y */
+
+   border-radius: 5px;
+
+   border: 1.3px solid #34beed;
+
+   box-shadow:inset 2px 0 3px rgba(200, 200, 200, 0.5), inset -2px 0 3px rgba(200, 200, 200, 0.5), inset 1px 0 0 rgba(245, 245, 245, 0.3),  inset -1px 0 0 rgba(245, 245, 245, 0.3);
+
+   filter:drop-shadow(0px 0px 4px #c8c8c8); /* ya ya i know, outdated css stuff!1!1 but if it works it works vro.. */
+
+   /* cssgraident.io my beloved */
+
+background: rgb(249,254,255);
+
+background: linear-gradient(90deg, rgba(249,254,255,1) 0%, rgba(248,253,255,1) 10%, rgba(247,253,255,1) 16%, rgba(246,253,255,1) 22%, rgba(245,253,255,1) 29%, rgba(244,252,255,1) 36%, rgba(243,252,255,1) 47%, rgba(242,252,255,1) 100%);
+
+   /* cssgraident.io my beloved */
+
+}
+
+
+button:hover {
+
+       /* change to your own cursor when hovering over sum, or just remove :) */
+
+   cursor: url("wiicursor.png"), pointer;
+
+
+/* don te edit cuz this make the buttons w i i s h o p p y */
+
+   border:2px solid #34beed;
+
+   outline:1.5px solid #34bEED;
+
+}
+
+/*forthese, add class="BTN___text" to your button */
+
+.BTNsmalltext {
+
+   font-size: 14px;
+
+}
+
+.BTNmediumtext {
+
+   font-weight:normal;
+
+   font-size: 18px;
+
+}
+
+.BTNlargetext {
+
+   font-weight:normal;
+
+   font-size: 22px;
+
+}
+
+/* wii shop type button made by ChrisplayzYT/BLOX.
+
+smalltext,mediumtext,largetext, were made by me peeking at the wii shop css,
+
+ its just font sizes!1!1 i didnt steal!!!
+
+*/
+
+
+
