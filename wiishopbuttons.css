@@ -5,7 +5,7 @@
  */
  button {
   /* change to your own cursor, or just remove :) */
-  cursor: url("wiicursor.png"), default;
+  cursor: url("/wiicursor.png"), default;
   text-align: center;
   padding: 3px 5px;
 transition:0s;
@@ -20,11 +20,15 @@ transition:0s;
 
 button:hover {
       /* change to your own cursor when hovering over sum, or just remove :) */
-  cursor: url("wiicursor.png"), pointer;
+  cursor: url("/wiicursor.png"), pointer;
   transition:0s;
 /* don te edit cuz this make the buttons w i i s h o p p y */
   border:2px solid #34beed;
   outline:1.5px solid #34bEED;
+}
+button:active {
+      /* change to your own cursor when hovering over sum, or just remove :) */
+  cursor: url("/wiicursor.png"), pointer;
 }
 /*forthese, add class="BTN___text" to your button */
 .BTNsmalltext {
